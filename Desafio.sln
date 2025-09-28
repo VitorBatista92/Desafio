@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "desafio.client", "desafio.client\desafio.client.esproj", "{F9F74589-24A2-9F42-6585-BB84017BC578}"
 EndProject
@@ -31,6 +31,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 CrossCutting", "4.2 Cro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Data", "Services.Data\Desafio.Data.csproj", "{A3192015-7002-4F41-AED8-22EF86238500}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.IoC", "Desafio.IoC\Desafio.IoC.csproj", "{F558288F-ADF6-40E6-A922-370A2760980B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Back.Tests", "Desafio.Back.Tests\Desafio.Back.Tests.csproj", "{C8B18DAB-D6F3-4A35-8819-72F90F02162E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{A3192015-7002-4F41-AED8-22EF86238500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3192015-7002-4F41-AED8-22EF86238500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3192015-7002-4F41-AED8-22EF86238500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F558288F-ADF6-40E6-A922-370A2760980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F558288F-ADF6-40E6-A922-370A2760980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F558288F-ADF6-40E6-A922-370A2760980B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F558288F-ADF6-40E6-A922-370A2760980B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B18DAB-D6F3-4A35-8819-72F90F02162E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B18DAB-D6F3-4A35-8819-72F90F02162E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B18DAB-D6F3-4A35-8819-72F90F02162E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B18DAB-D6F3-4A35-8819-72F90F02162E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +88,8 @@ Global
 		{D7795547-C6D2-4412-8638-1C2BEBFD0B14} = {03E3BEE1-14E6-4E69-9513-214F0FA42452}
 		{C626402E-449E-4DA3-B6BF-4472380074B9} = {03E3BEE1-14E6-4E69-9513-214F0FA42452}
 		{A3192015-7002-4F41-AED8-22EF86238500} = {D7795547-C6D2-4412-8638-1C2BEBFD0B14}
+		{F558288F-ADF6-40E6-A922-370A2760980B} = {C626402E-449E-4DA3-B6BF-4472380074B9}
+		{C8B18DAB-D6F3-4A35-8819-72F90F02162E} = {34F6B93F-0D63-4E62-8799-38A817880402}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BFADFB1-5950-4000-AAFD-C4A10E4C17C8}
