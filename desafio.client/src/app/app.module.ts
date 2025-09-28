@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListarTituloComponent } from './components/listar-titulo/listar-titulo.component';
+import { VerTitulosComponent } from './components/ver-titulos/ver-titulos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListarTituloComponent,
+    VerTitulosComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

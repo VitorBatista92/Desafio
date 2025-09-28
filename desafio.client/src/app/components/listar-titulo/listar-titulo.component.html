@@ -1,0 +1,10 @@
+<div>
+  @for(titulo of listaTitulos; track titulo.id){
+  <ul>
+    <li>Numero do titulo:{{titulo.numeroTitulo}}</li>
+    <li>Nome do devedor:{{titulo.nomeDevedor}}</li>
+    <li><button (click)=VerTitulo(titulo)>Mais Informacoes</button> </li>
+  </ul>
+  }
+</div>
+<router-outlet/>
