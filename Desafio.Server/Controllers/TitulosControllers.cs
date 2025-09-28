@@ -88,10 +88,11 @@ namespace Desafio.Controllers
 
             try
             {
-                return BadRequest(ex.Message);
+                return Ok(tituloService.Delete(id));
             }
             catch (Exception ex)
             {
+                return BadRequest(ex.Message);
             }
         }
     }
